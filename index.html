@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YasiVPN | سرویس VPN</title>
+<meta name="description" content="انتخاب و سفارش سرویس YasiVPN">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
+*{box-sizing:border-box}
+:root{--bg:#050817;--panel:#0b1024;--panel2:#101936;--blue:#27a8ff;--cyan:#00eaff;--pink:#d946ef;--text:#f7f9ff;--muted:#aeb8d7;--line:#26345d}
+body{margin:0;background:radial-gradient(circle at 10% 0%,#122b67 0,transparent 35%),radial-gradient(circle at 90% 10%,#43135f 0,transparent 30%),var(--bg);color:var(--text);font-family:Vazirmatn,Tahoma,sans-serif}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{padding:22px 0;position:sticky;top:0;z-index:20;background:rgba(5,8,23,.78);backdrop-filter:blur(18px);border-bottom:1px solid rgba(95,130,220,.15)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{font-size:25px;font-weight:900;letter-spacing:.5px}.logo span{color:var(--cyan)}
+.tg{background:linear-gradient(135deg,#168cff,#25d7ff);padding:11px 18px;border-radius:14px;font-weight:800;box-shadow:0 8px 28px #168cff30}
+.hero{padding:68px 0 45px;text-align:center}
+.badge{display:inline-block;border:1px solid #25d7ff55;background:#0c1d3d;padding:8px 14px;border-radius:999px;color:#8eeeff;font-size:13px}
+h1{font-size:clamp(36px,7vw,72px);line-height:1.1;margin:20px 0 14px;background:linear-gradient(90deg,#fff,#5be8ff,#dba6ff);-webkit-background-clip:text;color:transparent}
+.hero p{color:var(--muted);max-width:700px;margin:0 auto 28px;font-size:17px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:35px}
+.feature{background:linear-gradient(180deg,#101a3a,#0a1024);border:1px solid var(--line);padding:17px;border-radius:18px}
+.feature b{display:block;margin-bottom:5px}.feature span{color:var(--muted);font-size:13px}
+.section-title{text-align:center;margin:55px 0 25px}.section-title h2{font-size:30px;margin:0 0 7px}.section-title p{color:var(--muted);margin:0}
+.tabs{display:flex;justify-content:center;gap:10px;margin-bottom:25px}.tab{cursor:pointer;border:1px solid var(--line);background:#0b1229;color:#cbd5f0;padding:12px 22px;border-radius:14px;font:inherit;font-weight:800}.tab.active{background:linear-gradient(135deg,#138eff,#a33cff);color:white;border-color:transparent}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.card{position:relative;overflow:hidden;background:linear-gradient(180deg,#111b3c,#080d20);border:1px solid #293b70;border-radius:22px;padding:22px;transition:.2s}
+.card:hover{transform:translateY(-4px);border-color:#35d8ff;box-shadow:0 15px 45px #00b7ff15}
+.card .kind{color:#75eaff;font-size:13px;font-weight:700}.card h3{font-size:22px;margin:10px 0 5px}.card .desc{color:#9ca9ca;font-size:13px;min-height:22px}
+.price{font-size:28px;font-weight:900;margin:18px 0 16px}.price small{font-size:12px;color:#9ca9ca;font-weight:500}
+.order{display:block;text-align:center;background:linear-gradient(135deg,#11a7ff,#7c3cff);padding:12px;border-radius:13px;font-weight:900;cursor:pointer}
+#variety{display:none}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:20px;background:#080d20}
+table{width:100%;border-collapse:collapse;min-width:680px}th,td{padding:13px;text-align:center;border-bottom:1px solid #1e2a4b}th{background:#111a38;color:#8eeeff}td:first-child{font-weight:800}tr:hover td{background:#101833}
+.small-order{padding:8px 12px;border-radius:10px;border:1px solid #31518d;background:#101d3c;color:#fff;cursor:pointer;font-family:inherit}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:55px}.gallery img{width:100%;display:block;border-radius:22px;border:1px solid #26365f;box-shadow:0 18px 50px #0008}
+.cta{margin:60px 0;padding:35px;text-align:center;border:1px solid #294e88;border-radius:26px;background:linear-gradient(135deg,#0d2144,#23103e)}
+.cta h2{margin-top:0}.cta p{color:var(--muted)}
+footer{padding:28px 0 40px;color:#8491b5;text-align:center;font-size:13px}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.features{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}.hero{padding-top:45px}.nav .tg{padding:9px 12px;font-size:13px}}
+</style>
+</head>
+<body>
+<header><div class="container nav">
+  <div class="logo">Yasi<span>VPN</span></div>
+  <a class="tg" href="https://t.me/yasivpn1" target="_blank">💬 تلگرام</a>
+</div></header>
+
+<main>
+<section class="hero container">
+  <span class="badge">⚡ اتصال سریع • بدون قطعی • پشتیبانی در تلگرام</span>
+  <h1>سرویس مناسب خودت رو انتخاب کن</h1>
+  <p>پلن موردنظرت رو انتخاب کن؛ بعد از انتخاب، سفارش با مشخصات کامل آماده می‌شه و مستقیم به تلگرام YasiVPN می‌ری.</p>
+  <div class="features">
+    <div class="feature">⚡ <b>اتصال سریع</b><span>مناسب استفاده روزمره و آنلاین</span></div>
+    <div class="feature">🛡️ <b>امنیت و حریم خصوصی</b><span>سازگار با کلاینت‌های محبوب</span></div>
+    <div class="feature">💬 <b>پشتیبانی تلگرام</b><span>ثبت سفارش و دریافت کانفیگ</span></div>
+  </div>
+</section>
+
+<section class="container">
+  <div class="section-title"><h2>انتخاب سرویس</h2><p>دو مدل سرویس برای انتخاب شما</p></div>
+  <div class="tabs">
+    <button class="tab active" onclick="showTab('economic',this)">سرویس اقتصادی</button>
+    <button class="tab" onclick="showTab('variety',this)">سرویس متنوع</button>
+  </div>
+
+  <div id="economic">
+    <div class="grid">
+      <div class="card"><span class="kind">اقتصادی • یک‌ماهه</span><h3>۳۰ گیگ</h3><div class="desc">حجم ۳۰ گیگابایت</div><div class="price">۹۰,۰۰۰ <small>تومان</small></div><a class="order" href="#" onclick="order('اقتصادی','۳۰ گیگ','۱ ماه','۹۰,۰۰۰ تومان')">انتخاب و سفارش</a></div>
+      <div class="card"><span class="kind">اقتصادی • یک‌ماهه</span><h3>۵۰ گیگ</h3><div class="desc">حجم ۵۰ گیگابایت</div><div class="price">۱۲۰,۰۰۰ <small>تومان</small></div><a class="order" href="#" onclick="order('اقتصادی','۵۰ گیگ','۱ ماه','۱۲۰,۰۰۰ تومان')">انتخاب و سفارش</a></div>
+      <div class="card"><span class="kind">اقتصادی • یک‌ماهه</span><h3>۱۰۰ گیگ</h3><div class="desc">حجم ۱۰۰ گیگابایت</div><div class="price">۲۰۰,۰۰۰ <small>تومان</small></div><a class="order" href="#" onclick="order('اقتصادی','۱۰۰ گیگ','۱ ماه','۲۰۰,۰۰۰ تومان')">انتخاب و سفارش</a></div>
+      <div class="card"><span class="kind">اقتصادی • یک‌ماهه</span><h3>نامحدود ∞</h3><div class="desc">حجم نامحدود</div><div class="price">۳۰۰,۰۰۰ <small>تومان</small></div><a class="order" href="#" onclick="order('اقتصادی','نامحدود','۱ ماه','۳۰۰,۰۰۰ تومان')">انتخاب و سفارش</a></div>
+    </div>
+  </div>
+
+  <div id="variety">
+    <div class="table-wrap">
+    <table><thead><tr><th>حجم</th><th>۱ ماهه</th><th>۲ ماهه</th><th>نامحدود</th></tr></thead><tbody>
+      <tr><td>۵ گیگ</td><td>۴۰</td><td>۴۵</td><td>۵۰</td></tr>
+      <tr><td>۱۰ گیگ</td><td>۸۰</td><td>۹۰</td><td>۱۰۰</td></tr>
+      <tr><td>۱۵ گیگ</td><td>۱۰۵</td><td>۱۱۵</td><td>۱۳۰</td></tr>
+      <tr><td>۲۰ گیگ</td><td>۱۳۰</td><td>۱۴۵</td><td>۱۶۰</td></tr>
+      <tr><td>۲۵ گیگ</td><td>۱۵۵</td><td>۱۷۰</td><td>۱۹۰</td></tr>
+      <tr><td>۳۰ گیگ</td><td>۱۸۰</td><td>۲۰۰</td><td>۲۲۰</td></tr>
+      <tr><td>۳۵ گیگ</td><td>۲۰۰</td><td>۲۲۵</td><td>۲۴۵</td></tr>
+      <tr><td>۴۰ گیگ</td><td>۲۲۵</td><td>۲۴۵</td><td>۲۷۰</td></tr>
+      <tr><td>۴۵ گیگ</td><td>۲۴۵</td><td>۲۷۰</td><td>۲۹۵</td></tr>
+      <tr><td>۵۰ گیگ</td><td>۲۷۰</td><td>۲۹۵</td><td>۳۲۰</td></tr>
+      <tr><td>۶۰ گیگ</td><td>۳۰۵</td><td>۳۳۰</td><td>۳۶۵</td></tr>
+      <tr><td>۷۰ گیگ</td><td>۳۴۰</td><td>۳۷۵</td><td>۴۱۰</td></tr>
+      <tr><td>۸۰ گیگ</td><td>۳۷۵</td><td>۴۱۵</td><td>۴۵۵</td></tr>
+      <tr><td>۹۰ گیگ</td><td>۴۱۵</td><td>۴۶۰</td><td>۵۰۵</td></tr>
+      <tr><td>۱۰۰ گیگ</td><td>۴۵۰</td><td>۵۰۰</td><td>۵۵۰</td></tr>
+    </tbody></table></div>
+    <p style="color:#8794b8;font-size:12px;text-align:center;margin-top:12px">قیمت‌های جدول به هزار تومان هستند. برای سفارش روی قیمت موردنظر بزنید.</p>
+  </div>
+</section>
+
+<section class="container gallery">
+  <img src="economic.jpg" alt="لیست سرویس اقتصادی YasiVPN">
+  <img src="variety.jpg" alt="لیست سرویس متنوع YasiVPN">
+</section>
+
+<section class="container cta">
+  <h2>طرح رو انتخاب کردی؟ 🚀</h2>
+  <p>با زدن دکمه سفارش، مشخصات طرح در پیام تلگرام آماده می‌شود.</p>
+  <a class="tg" href="https://t.me/yasivpn1" target="_blank">ورود به تلگرام YasiVPN</a>
+</section>
+</main>
+<footer>© YasiVPN • سفارش و پشتیبانی از طریق تلگرام <b>@yasivpn1</b></footer>
+
+<script>
+function showTab(id,btn){
+  document.getElementById('economic').style.display=id==='economic'?'block':'none';
+  document.getElementById('variety').style.display=id==='variety'?'block':'none';
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active')); btn.classList.add('active');
+}
+function order(type,volume,duration,price){
+  const msg=`سلام، برای خرید YasiVPN سفارش دارم.%0A%0A🔹 نوع سرویس: ${type}%0A🔹 حجم: ${volume}%0A🔹 مدت: ${duration}%0A🔹 قیمت: ${price}%0A%0Aلطفاً راهنمایی و کانفیگ را ارسال کنید.`;
+  window.open('https://t.me/yasivpn1?text='+msg,'_blank');
+}
+document.querySelectorAll('#variety td').forEach((cell,i)=>{
+  if(i%4!==0){
+    const row=cell.parentElement, volume=row.children[0].innerText;
+    const col=i%4; const duration=col===1?'۱ ماه':col===2?'۲ ماه':'نامحدود';
+    const price=cell.innerText+' هزار تومان';
+    cell.innerHTML=`<button class="small-order" onclick="order('متنوع', '${volume}', '${duration}', '${price}')">${cell.innerText} هزار</button>`;
+  }
+});
+</script>
+</body>
+</html>
